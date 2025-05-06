@@ -1,0 +1,26 @@
+.navbar.navbar-dark {
+    background-color: #c8a5c0 !important;
+}
+
+.navbar.navbar-dark .navbar-brand {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white !important;
+}
+
+.navbar.navbar-dark .nav-link {
+    font-size: 1.1rem;
+    color: white !important;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+    position: relative;
+}
+
+.navbar.navbar-dark .nav-link:hover {
+    background-color: #b88aad;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
