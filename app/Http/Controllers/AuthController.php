@@ -11,16 +11,16 @@ use Illuminate\Support\Facades\Hash;
 class AuthController extends Controller
 {
     public function authCheck()
-    {
-        if (Auth::check()) {
-            return response()->json([
-                'auth' => true,
-                'user' => Auth::user()
-            ]);
-        }
-
-        return response()->json(['auth' => false]);
+{
+    if (Auth::check()) {
+        return response()->json([
+            'auth' => true,
+            'user' => Auth::user()
+        ]);
     }
+
+    return response()->json(['auth' => false]);
+}
 
     public function login(Request $request)
     {
